@@ -7,8 +7,8 @@
 
 import Foundation
 
-// MARK: - WelcomeElement
-struct Coin: Codable {
+// MARK: - Coin
+struct Coin: Codable, Identifiable {
     let id, symbol, name: String
     let image: String
     let currentPrice: Double
